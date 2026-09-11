@@ -1,0 +1,330 @@
+[
+  {
+    "price": "$275,000",
+    "address": "2919 Jubilee Trl, Austin, TX 78748"
+  },
+  {
+    "price": "$275,000",
+    "address": "2919 Jubilee Trl"
+  },
+  {
+    "price": "$425,000",
+    "address": "7017 Tesoro Trl, Austin, TX 78729"
+  },
+  {
+    "price": "$425,000",
+    "address": "7017 Tesoro Trl"
+  },
+  {
+    "price": "$900,000",
+    "address": "12113 Cascade Caverns Trl, Austin, TX 78739"
+  },
+  {
+    "price": "$900,000",
+    "address": "12113 Cascade Caverns Trl"
+  },
+  {
+    "price": "$1,639,000",
+    "address": "4014 Greystone Dr, Austin, TX 78731"
+  },
+  {
+    "price": "$1,639,000",
+    "address": "4014 Greystone Dr"
+  },
+  {
+    "price": "$470,000",
+    "address": "8102 Furness Cv, Austin, TX 78753"
+  },
+  {
+    "price": "$470,000",
+    "address": "8102 Furness Cv"
+  },
+  {
+    "price": "$400,000",
+    "address": "6413 Auburn Dr, Austin, TX 78723"
+  },
+  {
+    "price": "$400,000",
+    "address": "6413 Auburn Dr"
+  },
+  {
+    "price": "$395,000",
+    "address": "1704 Shelbourne Dr, Austin, TX 78752"
+  },
+  {
+    "price": "$395,000",
+    "address": "1704 Shelbourne Dr"
+  },
+  {
+    "price": "$1,499,000",
+    "address": "10714 Twilight Vis, Austin, TX 78736"
+  },
+  {
+    "price": "$1,499,000",
+    "address": "10714 Twilight Vis"
+  },
+  {
+    "price": "$949,500",
+    "address": "11617 Leapwood Pl, Austin, TX 78759"
+  },
+  {
+    "price": "$949,500",
+    "address": "11617 Leapwood Pl"
+  },
+  {
+    "price": "$9,900,000",
+    "address": "12821 Hughes Park Rd, Austin, TX 78732"
+  },
+  {
+    "price": "$9,900,000",
+    "address": "12821 Hughes Park Rd"
+  },
+  {
+    "price": "$560,000",
+    "address": "10909 Legends Ln, Austin, TX 78747"
+  },
+  {
+    "price": "$560,000",
+    "address": "10909 Legends Ln"
+  },
+  {
+    "price": "$1,149,000",
+    "address": "5910 Travis Woods Cv, Austin, TX 78734"
+  },
+  {
+    "price": "$1,149,000",
+    "address": "5910 Travis Woods Cv"
+  },
+  {
+    "price": "$315,000",
+    "address": "6000 Shepherd Mountain Cv Unit 1501, Austin, TX 78730"
+  },
+  {
+    "price": "$315,000",
+    "address": "6000 Shepherd Mountain Cv Unit 1501"
+  },
+  {
+    "price": "$1,025,000",
+    "address": "5600 Spurflower Dr, Austin, TX 78759"
+  },
+  {
+    "price": "$1,025,000",
+    "address": "5600 Spurflower Dr"
+  },
+  {
+    "price": "$2,950,000",
+    "address": "10503 Foundation Rd, Austin, TX 78726"
+  },
+  {
+    "price": "$2,950,000",
+    "address": "10503 Foundation Rd"
+  },
+  {
+    "price": "$20,000,000",
+    "address": "15016 Flat Top Ranch Rd, Austin, TX 78732"
+  },
+  {
+    "price": "$20,000,000",
+    "address": "15016 Flat Top Ranch Rd"
+  },
+  {
+    "price": "$1,500,000",
+    "address": "1208 Kinney Ave, Austin, TX 78704"
+  },
+  {
+    "price": "$1,500,000",
+    "address": "1208 Kinney Ave"
+  },
+  {
+    "price": "$389,000",
+    "address": "6607 Starstreak Dr, Austin, TX 78745"
+  },
+  {
+    "price": "$389,000",
+    "address": "6607 Starstreak Dr"
+  },
+  {
+    "price": "$1,200,000",
+    "address": "10500 Avery Club Dr Unit 10, Austin, TX 78717"
+  },
+  {
+    "price": "$1,200,000",
+    "address": "10500 Avery Club Dr Unit 10"
+  },
+  {
+    "price": "$299,900",
+    "address": "14901 Chamberlain Ct, Austin, TX 78724"
+  },
+  {
+    "price": "$299,900",
+    "address": "14901 Chamberlain Ct"
+  },
+  {
+    "price": "$625,000",
+    "address": "2807 E 4th St Unit A, Austin, TX 78702"
+  },
+  {
+    "price": "$625,000",
+    "address": "2807 E 4th St Unit A"
+  },
+  {
+    "price": "$229,000",
+    "address": "2500 Steck Ave APT 4, Austin, TX 78757"
+  },
+  {
+    "price": "$229,000",
+    "address": "2500 Steck Ave APT 4"
+  },
+  {
+    "price": "$3,300,000",
+    "address": "800 W James St, Austin, TX 78704"
+  },
+  {
+    "price": "$3,300,000",
+    "address": "800 W James St"
+  },
+  {
+    "price": "$625,000",
+    "address": "6008 Smith Oak Trl, Austin, TX 78749"
+  },
+  {
+    "price": "$625,000",
+    "address": "6008 Smith Oak Trl"
+  },
+  {
+    "price": "$299,000",
+    "address": "11021 Silo Valley Dr, Austin, TX 78754"
+  },
+  {
+    "price": "$299,000",
+    "address": "11021 Silo Valley Dr"
+  },
+  {
+    "price": "$539,000",
+    "address": "9202 Shady Oaks Dr, Austin, TX 78729"
+  },
+  {
+    "price": "$539,000",
+    "address": "9202 Shady Oaks Dr"
+  },
+  {
+    "price": "$3,399,950",
+    "address": "3200 Three Rivers Dr, Austin, TX 78746"
+  },
+  {
+    "price": "$3,399,950",
+    "address": "3200 Three Rivers Dr"
+  },
+  {
+    "price": "$325,000",
+    "address": "5508 Emma Thompson Way, Austin, TX 78747"
+  },
+  {
+    "price": "$325,000",
+    "address": "5508 Emma Thompson Way"
+  },
+  {
+    "price": "$1,750,000",
+    "address": "4127 Lago Viento, Austin, TX 78734"
+  },
+  {
+    "price": "$1,750,000",
+    "address": "4127 Lago Viento"
+  },
+  {
+    "price": "$390,000",
+    "address": "12002 Sunbonnet Cv, Austin, TX 78719"
+  },
+  {
+    "price": "$390,000",
+    "address": "12002 Sunbonnet Cv"
+  },
+  {
+    "price": "$650,000",
+    "address": "6533 E Hill Dr APT 5, Austin, TX 78731"
+  },
+  {
+    "price": "$650,000",
+    "address": "6533 E Hill Dr APT 5"
+  },
+  {
+    "price": "$280,000",
+    "address": "12612 Oxford Vineyard Ln, Manor, TX 78653"
+  },
+  {
+    "price": "$280,000",
+    "address": "12612 Oxford Vineyard Ln"
+  },
+  {
+    "price": "$262,500",
+    "address": "9419 Singing Quail Dr, Austin, TX 78758"
+  },
+  {
+    "price": "$262,500",
+    "address": "9419 Singing Quail Dr"
+  },
+  {
+    "price": "$1,995,000",
+    "address": "5802 Cannonade Ct, Austin, TX 78746"
+  },
+  {
+    "price": "$1,995,000",
+    "address": "5802 Cannonade Ct"
+  },
+  {
+    "price": "$999,000",
+    "address": "5307 Aurora Dr, Austin, TX 78756"
+  },
+  {
+    "price": "$999,000",
+    "address": "5307 Aurora Dr"
+  },
+  {
+    "price": "$20,000",
+    "address": "7705 Bellehaven Ct, Austin, TX 78744"
+  },
+  {
+    "price": "$20,000",
+    "address": "7705 Bellehaven Ct"
+  },
+  {
+    "price": "$699,000",
+    "address": "12410 Blossomwood Dr, Austin, TX 78727"
+  },
+  {
+    "price": "$699,000",
+    "address": "12410 Blossomwood Dr"
+  },
+  {
+    "price": "$2,750,000",
+    "address": "2909 Hillview Rd, Austin, TX 78703"
+  },
+  {
+    "price": "$2,750,000",
+    "address": "2909 Hillview Rd"
+  },
+  {
+    "price": "$780,000",
+    "address": "11819 Highland Oaks Trl, Austin, TX 78759"
+  },
+  {
+    "price": "$780,000",
+    "address": "11819 Highland Oaks Trl"
+  },
+  {
+    "price": "$649,999",
+    "address": "4907 Watusi Bnd, Austin, TX 78732"
+  },
+  {
+    "price": "$649,999",
+    "address": "4907 Watusi Bnd"
+  },
+  {
+    "price": "$445,000",
+    "address": "9847 Childress Dr, Austin, TX 78753"
+  },
+  {
+    "price": "$445,000",
+    "address": "9847 Childress Dr"
+  }
+]

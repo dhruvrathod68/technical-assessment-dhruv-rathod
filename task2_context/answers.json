@@ -1,0 +1,219 @@
+{
+  "assessment": "Meridian Grid Security - Internal Dossier Audit (Task 2)",
+  "timestamp": "2026-09-11T22:41:14.774329",
+  "ground_truth_answers": {
+    "question_1": {
+      "question": "Incident with the highest reconciled cost and its on-call engineer (from Incident Log table)",
+      "incident_id": "INC-003",
+      "reconciled_cost": "INR 61,00,000",
+      "reconciled_cost_inr": 6100000,
+      "on_call_engineer": "Kabir Shah",
+      "details": {
+        "incident_id": "INC-003",
+        "date": "2023-04-08",
+        "root_cause": "Misconfigured firewall rule during VPN migration",
+        "severity": "Critical",
+        "reconciled_cost_inr": 6100000,
+        "reconciled_cost_formatted": "INR 61,00,000",
+        "on_call_engineer": "Kabir Shah",
+        "all_incidents": [
+          {
+            "incident_id": "INC-001",
+            "date": "2022-06-02",
+            "root_cause": "Misconfigured firewall rule on client edge router",
+            "severity": "High",
+            "cost_inr": 2250000,
+            "cost_raw": "22,50,000",
+            "on_call_engineer": "Kabir Shah"
+          },
+          {
+            "incident_id": "INC-002",
+            "date": "2022-11-19",
+            "root_cause": "Expired TLS certificate on public-facing API gateway",
+            "severity": "Medium",
+            "cost_inr": 420000,
+            "cost_raw": "4,20,000",
+            "on_call_engineer": "Meera Iyer"
+          },
+          {
+            "incident_id": "INC-003",
+            "date": "2023-04-08",
+            "root_cause": "Misconfigured firewall rule during VPN migration",
+            "severity": "Critical",
+            "cost_inr": 6100000,
+            "cost_raw": "61,00,000",
+            "on_call_engineer": "Kabir Shah"
+          },
+          {
+            "incident_id": "INC-004",
+            "date": "2023-09-30",
+            "root_cause": "Third-party vendor breach (CloudSentry API)",
+            "severity": "High",
+            "cost_inr": 3500000,
+            "cost_raw": "35,00,000",
+            "on_call_engineer": "Priya Nair"
+          },
+          {
+            "incident_id": "INC-005",
+            "date": "2024-02-17",
+            "root_cause": "Misconfigured firewall rule on staging environment",
+            "severity": "Low",
+            "cost_inr": 110000,
+            "cost_raw": "1,10,000",
+            "on_call_engineer": "Meera Iyer"
+          },
+          {
+            "incident_id": "INC-006",
+            "date": "2024-07-05",
+            "root_cause": "Credential stuffing attack on client admin portal",
+            "severity": "Medium",
+            "cost_inr": 900000,
+            "cost_raw": "9,00,000",
+            "on_call_engineer": "Priya Nair"
+          }
+        ]
+      }
+    },
+    "question_2": {
+      "question": "Vendor flagged as a compliance risk in Q3 audit and its annual contract cost (cross-reference Audit Finding 8.1 and Vendor Inventory)",
+      "flagged_vendor": "CloudSentry API",
+      "annual_contract_cost": "INR 48,00,000",
+      "annual_contract_cost_inr": 4800000,
+      "audit_finding": "8.1 Finding 1 \u2013 Vendor Data Residency Risk (High)",
+      "details": {
+        "flagged_vendor": "CloudSentry API",
+        "audit_finding": "8.1 Finding 1 \u2013 Vendor Data Residency Risk (High)",
+        "compliance_risk_summary": "Processes client telemetry data outside India without an adequate DPA, violating contractual data residency commitments.",
+        "annual_contract_cost_inr": 4800000,
+        "annual_contract_cost_formatted": "INR 48,00,000"
+      }
+    },
+    "question_3": {
+      "question": "Client who received the 'Firewall Rule Auto-Validator v2' tool and their monthly revenue (Section 4 and Section 5)",
+      "client_name": "Vantage Retail Group",
+      "monthly_revenue": "INR 6,75,000",
+      "monthly_revenue_inr": 675000,
+      "deployment_type": "Full SOC + Pen Test Retainer",
+      "details": {
+        "client_name": "Vantage Retail Group",
+        "tool_received": "Firewall Rule Auto-Validator v2",
+        "deployment_type": "Full SOC + Pen Test Retainer",
+        "monthly_revenue_inr": 675000,
+        "monthly_revenue_formatted": "INR 6,75,000",
+        "upgrade_date": "November 2023",
+        "incident_remediation_link": "INC-003"
+      }
+    },
+    "question_4": {
+      "question": "Head of Security during the founding year and their exact tenure duration (Section 2 and Section 3.1)",
+      "head_of_security": "Naina Kapoor",
+      "founding_year": 2019,
+      "exact_tenure_duration": "2 years, 4 months (28 months total)",
+      "tenure_start": "April 2019",
+      "tenure_end": "August 2021",
+      "details": {
+        "founding_year": 2019,
+        "head_of_security": "Naina Kapoor",
+        "tenure_start": "April 2019",
+        "tenure_end": "August 2021",
+        "exact_tenure_duration": "2 years, 4 months (28 months total)",
+        "successor": "Rohan Bhatt"
+      }
+    },
+    "question_5": {
+      "question": "Total severity-weighted cost of all incidents caused by 'misconfigured firewall rule'",
+      "total_severity_weighted_cost": "INR 2,90,10,000",
+      "total_severity_weighted_cost_inr": 29010000,
+      "calculation_breakdown": [
+        {
+          "incident_id": "INC-001",
+          "date": "2022-06-02",
+          "root_cause": "Misconfigured firewall rule on client edge router",
+          "severity": "High",
+          "severity_multiplier": 2.0,
+          "reconciled_cost_inr": 2250000,
+          "severity_weighted_cost_inr": 4500000,
+          "severity_weighted_cost_formatted": "INR 45,00,000",
+          "on_call_engineer": "Kabir Shah"
+        },
+        {
+          "incident_id": "INC-003",
+          "date": "2023-04-08",
+          "root_cause": "Misconfigured firewall rule during VPN migration",
+          "severity": "Critical",
+          "severity_multiplier": 4.0,
+          "reconciled_cost_inr": 6100000,
+          "severity_weighted_cost_inr": 24400000,
+          "severity_weighted_cost_formatted": "INR 2,44,00,000",
+          "on_call_engineer": "Kabir Shah"
+        },
+        {
+          "incident_id": "INC-005",
+          "date": "2024-02-17",
+          "root_cause": "Misconfigured firewall rule on staging environment",
+          "severity": "Low",
+          "severity_multiplier": 1.0,
+          "reconciled_cost_inr": 110000,
+          "severity_weighted_cost_inr": 110000,
+          "severity_weighted_cost_formatted": "INR 1,10,000",
+          "on_call_engineer": "Meera Iyer"
+        }
+      ],
+      "details": {
+        "matching_root_cause": "misconfigured firewall rule",
+        "incidents_analyzed": [
+          {
+            "incident_id": "INC-001",
+            "date": "2022-06-02",
+            "root_cause": "Misconfigured firewall rule on client edge router",
+            "severity": "High",
+            "severity_multiplier": 2.0,
+            "reconciled_cost_inr": 2250000,
+            "severity_weighted_cost_inr": 4500000,
+            "severity_weighted_cost_formatted": "INR 45,00,000",
+            "on_call_engineer": "Kabir Shah"
+          },
+          {
+            "incident_id": "INC-003",
+            "date": "2023-04-08",
+            "root_cause": "Misconfigured firewall rule during VPN migration",
+            "severity": "Critical",
+            "severity_multiplier": 4.0,
+            "reconciled_cost_inr": 6100000,
+            "severity_weighted_cost_inr": 24400000,
+            "severity_weighted_cost_formatted": "INR 2,44,00,000",
+            "on_call_engineer": "Kabir Shah"
+          },
+          {
+            "incident_id": "INC-005",
+            "date": "2024-02-17",
+            "root_cause": "Misconfigured firewall rule on staging environment",
+            "severity": "Low",
+            "severity_multiplier": 1.0,
+            "reconciled_cost_inr": 110000,
+            "severity_weighted_cost_inr": 110000,
+            "severity_weighted_cost_formatted": "INR 1,10,000",
+            "on_call_engineer": "Meera Iyer"
+          }
+        ],
+        "total_severity_weighted_cost_inr": 29010000,
+        "total_severity_weighted_cost_formatted": "INR 2,90,10,000"
+      }
+    },
+    "question_6": {
+      "question": "Renewal date and required approval chain for the SentinelWatch SIEM contract (scanned memo in Appendix B)",
+      "renewal_date": "15 March 2025",
+      "required_approval_chain": "Sign-off from the CEO before the Head of Finance & Operations may execute the renewal",
+      "approval_rule": "Any contract renewal exceeding the prior year's value requires sign-off from the CEO before the Head of Finance & Operations may execute the renewal.",
+      "details": {
+        "contract_name": "SentinelWatch SIEM Vendor Contract",
+        "renewal_date": "15 March 2025",
+        "required_approval_chain": "Sign-off from the CEO before the Head of Finance & Operations may execute the renewal",
+        "approval_rule": "Any contract renewal exceeding the prior year's value requires sign-off from the CEO before the Head of Finance & Operations may execute the renewal.",
+        "signatory_memo_author": "Aarav Mehta, CEO",
+        "memo_date": "18 September 2024",
+        "memo_ocr_raw_excerpt": "MERIDIAN GRID SECURITY PVT LTD INTERNAL MEMO From: Date : This Finance & Operations Aarav Mehta, CEO 18 September 2024 SentinelWatch SIEM Vendor Contract Renewal memo confirms that the SentinelWatch SIEM contract Vendor Inventory, Section 7) is due for renewal on 15 March 2025 Renewal terms have not..."
+      }
+    }
+  }
+}
