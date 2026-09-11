@@ -74,6 +74,20 @@ python task1_scraping/g2.py           # -> task1_scraping/g2.json
 python task1_scraping/stockx.py       # -> task1_scraping/stockx.json
 ```
 
+#### 3. Quick Data Preview
+To inspect the scraped records directly in terminal or via an interactive GUI window, run the following PowerShell commands:
+
+```powershell
+# Format and display Indeed job records
+Get-Content task1_scraping\indeed.json | ConvertFrom-Json | Format-Table -AutoSize
+
+# Format and display Zillow property listings
+Get-Content task1_scraping\zillow.json | ConvertFrom-Json | Format-Table -AutoSize
+
+# Open an interactive filterable GUI grid for any dataset
+Get-Content task1_scraping\zillow.json | ConvertFrom-Json | Out-GridView
+```
+
 ---
 
 ### Task 2: Context Extraction & Analysis
