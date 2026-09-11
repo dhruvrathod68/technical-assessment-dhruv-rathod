@@ -1,11 +1,11 @@
 """
-Meridian Grid Security - Local LLM Reverse Proxy (Task 3)
+Task 3: Local LLM Reverse Proxy Gateway
 FastAPI security proxy sitting in front of the local Ollama API.
 
 Enforces:
 1. Authentication: Enforced via X-API-Key or Authorization Bearer header (HTTP 401).
 2. Rate Limiting: 10 requests/minute per client IP via SlowAPI (HTTP 429).
-3. Resource Constraints: Prompt limit 2,000 chars (HTTP 413), 30s timeout, num_predict 256.
+3. Resource Constraints: Prompt limit 2,000 chars (HTTP 413), 60s timeout, num_predict 256.
 4. Prompt Injection Defense: Detection & rejection (HTTP 400), strict <user_input> isolation.
 5. Context Leakage Protection: Hardened system prompt & outbound canary response scrubber.
 """
@@ -68,7 +68,7 @@ class GenerateRequest(BaseModel):
 # FASTAPI APPLICATION SETUP
 # ==============================================================================
 app = FastAPI(
-    title="Meridian Grid LLM Security Proxy",
+    title="LLM Security Reverse Proxy Gateway",
     version="1.0.0",
     description="Hardened reverse proxy defending local Ollama endpoints against authentication bypass, prompt injection, context leakage, and resource exhaustion.",
 )
@@ -83,7 +83,7 @@ async def health_check():
     """Healthcheck endpoint reporting proxy status."""
     return {
         "status": "healthy",
-        "service": "Meridian Grid LLM Security Proxy",
+        "service": "LLM Security Reverse Proxy Gateway",
         "upstream_target": OLLAMA_BASE_URL,
     }
 

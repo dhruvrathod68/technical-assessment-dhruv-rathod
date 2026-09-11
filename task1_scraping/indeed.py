@@ -1,5 +1,5 @@
 """
-Meridian Grid Security - Task 1: Indeed Job Scraper
+Task 1: Web Scraping & Anti-Bot Evasion - Indeed Job Scraper
 Scrapes job title and company name from Indeed search results.
 Implements Chrome TLS impersonation via curl_cffi and DOM/regex extraction.
 """

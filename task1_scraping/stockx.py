@@ -1,5 +1,5 @@
 """
-Meridian Grid Security - Task 1: StockX Sneaker Scraper
+Task 1: Web Scraping & Anti-Bot Evasion - StockX Sneaker Scraper
 Scrapes current market price and product title for live sneaker listings on StockX.
 Implements modern TLS & JA4 fingerprint impersonation with curl_cffi.
 """

@@ -459,7 +459,7 @@ Executed command: `python task1_scraping/run_all.py`
 
 ```
 ===========================================================================
-  MERIDIAN GRID SECURITY - TASK 1 SCRAPING PIPELINE ORCHESTRATOR
+  TASK 1: ANTI-BOT WEB SCRAPING PIPELINE ORCHESTRATOR
 ===========================================================================
 [*] Starting execution of 5 scrapers...
 

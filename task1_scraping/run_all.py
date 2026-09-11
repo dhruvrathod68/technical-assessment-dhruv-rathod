@@ -1,5 +1,5 @@
 """
-Meridian Grid Security - Task 1: Master Web Scraping Runner
+Task 1: Master Web Scraping & Anti-Bot Pipeline Runner
 Executes all five scrapers sequentially, verifies that the resulting JSON files
 exist and contain non-empty structured data, and outputs a formatted terminal summary table.
 """
@@ -63,7 +63,7 @@ SCRAPERS = [
 
 def run_pipeline():
     print("=" * 75)
-    print("  MERIDIAN GRID SECURITY - TASK 1 SCRAPING PIPELINE ORCHESTRATOR")
+    print("  TASK 1: ANTI-BOT WEB SCRAPING PIPELINE ORCHESTRATOR")
     print("=" * 75)
     print(f"[*] Starting execution of {len(SCRAPERS)} scrapers...\n")
 

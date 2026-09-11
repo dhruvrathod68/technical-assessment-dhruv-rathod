@@ -1,5 +1,5 @@
 """
-Meridian Grid Security - LLM Security Engine (Task 3)
+Task 3: LLM Reverse Proxy Security Engine
 Modular security controls for local LLM reverse proxy:
 1. API Key Authentication (X-API-Key or Bearer Token)
 2. Rate Limiting & Resource Exhaustion Protection (SlowAPI, Length limits, timeouts)

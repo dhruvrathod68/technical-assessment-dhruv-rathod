@@ -1,5 +1,5 @@
 """
-Meridian Grid Security - LLM Security Test Suite (Task 3)
+Task 3: Security Engine Test Suite
 Comprehensive pytest verification covering:
 1. TestAuthentication: Validates 401 Unauthorized for missing/invalid keys, success on valid credentials.
 2. TestRateLimitingAndResourceExhaustion: Validates 429 Too Many Requests, 413 Payload size limits, timeout & num_predict limits.

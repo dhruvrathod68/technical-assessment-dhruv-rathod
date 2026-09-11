@@ -1,4 +1,4 @@
-# Meridian Grid Security - Task 3 Live Endpoint Penetration Verification
+# Task 3: LLM Reverse Proxy Live Endpoint Penetration Verification
 # Tests all defensive controls against the running FastAPI reverse proxy (http://localhost:8000)
 
 param(
@@ -7,7 +7,7 @@ param(
 )
 
 Write-Host "=================================================================" -ForegroundColor Cyan
-Write-Host "  MERIDIAN GRID SECURITY - LLM REVERSE PROXY LIVE PEN-TEST" -ForegroundColor Cyan
+Write-Host "  LLM REVERSE PROXY LIVE PEN-TEST & VULNERABILITY VERIFICATION" -ForegroundColor Cyan
 Write-Host "  Target: $BaseUrl" -ForegroundColor Cyan
 Write-Host "=================================================================" -ForegroundColor Cyan
 Write-Host ""

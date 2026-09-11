@@ -1,5 +1,5 @@
 """
-Meridian Grid Security - Task 1: Glassdoor Review Scraper
+Task 1: Web Scraping & Anti-Bot Evasion - Glassdoor Review Scraper
 Scrapes review titles and star ratings from Glassdoor.
 Implements TLS impersonation via curl_cffi with Google Referer headers.
 """

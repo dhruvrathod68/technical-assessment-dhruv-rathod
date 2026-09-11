@@ -1,5 +1,5 @@
 """
-Meridian Grid Security - Task 1: G2 Security Software Scraper
+Task 1: Web Scraping & Anti-Bot Evasion - G2 Security Software Scraper
 Scrapes product names and star ratings from G2's Endpoint Detection and Response category.
 Utilizes patchright with stealth CDP overrides to navigate DataDome protections.
 """

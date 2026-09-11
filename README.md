@@ -1,6 +1,6 @@
-# Meridian Grid Security - Assessment Repository
+# Technical Assessment Repository
 
-This repository contains the code, data pipelines, context handling engines, and security analysis scripts for the Meridian Grid Security assessment.
+This repository contains the code, data pipelines, context handling engines, and security analysis scripts for the technical assessment.
 
 ## Repository Structure
 

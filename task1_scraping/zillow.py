@@ -1,5 +1,5 @@
 """
-Meridian Grid Security - Task 1: Zillow Real Estate Scraper
+Task 1: Web Scraping & Anti-Bot Evasion - Zillow Real Estate Scraper
 Scrapes listing price and address from active Zillow properties.
 Inspects the initial server-rendered HTML for embedded __NEXT_DATA__ JSON state.
 """
