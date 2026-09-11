@@ -6,10 +6,6 @@ This repository contains the code, data pipelines, context handling engines, and
 
 ```
 repo/
-├── .gitignore                          # Standard git ignore definitions
-├── Meridian_Grid_Internal_Dossier.pdf  # Comprehensive internal operations and audit dossier
-├── PIPELINE.md                         # Chronological pipeline log and execution records
-├── README.md                           # Repository documentation and architecture overview
 ├── task1_scraping/                     # Task 1: Web and anti-bot scraping pipeline
 │   ├── g2.json                         # Extracted enterprise EDR products and star ratings
 │   ├── g2.py                           # Patchright stealth scraper with DataDome detection
@@ -21,18 +17,22 @@ repo/
 │   ├── stockx.json                     # Extracted sneaker market prices and product names
 │   ├── stockx.py                       # curl_cffi Chrome TLS scraper for StockX market
 │   ├── zillow.json                     # Extracted Austin real estate listings and prices
-│   └── zillow.py                       # curl_cffi scraper parsing __NEXT_DATA__ state
+│   └── zillow.py                       # curl_cffi scraper parsing NEXT_DATA state
 ├── task2_context/                      # Task 2: Document context extraction and OCR solver
 │   ├── answers.json                    # Structured JSON answers for all 6 audit queries
 │   ├── answers.md                      # Audit report detailing findings and calculation steps
 │   ├── page13_memo.png                 # Extracted raster scan of Appendix B internal memo
 │   └── solve.py                        # Automated context extractor and Windows OCR solver
-└── task3_llm_security/                 # Task 3: Local LLM security reverse proxy
-    ├── app.py                          # FastAPI reverse proxy enforcing 4 security layers
-    ├── requirements.txt                # Task 3 Python dependencies (FastAPI, SlowAPI, etc.)
-    ├── security.py                     # Security middleware, regex scanner, and response scrubber
-    ├── test_security.py                # Comprehensive 22-test automated pytest suite
-    └── verify_live.ps1                 # Live PowerShell black-box penetration test suite
+├── task3_llm_security/                 # Task 3: Local LLM security reverse proxy
+│   ├── app.py                          # FastAPI reverse proxy enforcing 4 security layers
+│   ├── requirements.txt                # Task 3 Python dependencies (FastAPI, SlowAPI, etc.)
+│   ├── security.py                     # Security middleware, regex scanner, and response scrubber
+│   ├── test_security.py                # Comprehensive 22-test automated pytest suite
+│   └── verify_live.ps1                 # Live PowerShell black-box penetration test suite
+├── .gitignore                          # Standard git ignore definitions
+├── Meridian_Grid_Internal_Dossier.pdf  # Comprehensive internal operations and audit dossier
+├── PIPELINE.md                         # Chronological pipeline log and execution records
+└── README.md                           # Repository documentation and architecture overview
 ```
 
 ## Setup & Dependencies
