@@ -7,7 +7,7 @@ This document records the chronological pipeline execution, environment provisio
 ## [Entry 001] - Repository Architecture & Scaffolding Initialization
 **Timestamp:** 2026-09-11 22:38:00 IST  
 **Status:** Completed  
-**Author:** Antigravity Engineering
+**Author:** Dhruv Rathod
 
 ### Objectives
 1. Set up standardized repository tree:
@@ -91,7 +91,7 @@ Client Requests
 │  └── Layer 3: Delimiter Escaping & <user_input> Wrap   │
 └────────────────────────────────────────────────────────┘
       │
-      ▼ (Enforce 30s timeout + num_predict: 256)
+      ▼ (Enforce 60s timeout + num_predict: 256)
 ┌────────────────────────────────────────────────────────┐
 │  Local Ollama Service (http://localhost:11434)         │
 │  (System prompt with CANARY_ID & strict confidentiality)│
@@ -123,7 +123,7 @@ Client Response
 - **Mitigation:**
   - Integrated `slowapi` with IP-based tracking (`get_remote_address`) restricting traffic to 10 requests/minute per client IP, returning `HTTP 429 Too Many Requests`.
   - Enforced prompt size threshold rejecting inputs exceeding 2,000 characters with `HTTP 413 Payload Too Large`.
-  - Set a hard 30-second upstream timeout (`UPSTREAM_TIMEOUT_SECONDS = 30.0`) via `httpx.AsyncClient`, returning `HTTP 504 Gateway Timeout` upon breach.
+  - Set an upstream timeout via httpx.AsyncClient (initially configured at 30.0s, subsequently tuned to 60.0s during live validation to accommodate local GPU cold-start latency), returning HTTP 504 Gateway Timeout upon breach.
   - Clamped generation token limits (`num_predict`: 256) in options sent to Ollama to prevent infinite generation loops and GPU memory starvation.
 
 #### Vulnerability 3: Prompt Injection Defense
