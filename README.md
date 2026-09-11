@@ -6,15 +6,33 @@ This repository contains the code, data pipelines, context handling engines, and
 
 ```
 repo/
-├── Meridian_Grid_Internal_Dossier.pdf  # Comprehensive internal operations & audit dossier
-├── task1_scraping/                     # Task 1: Web & document scraping components
-├── task2_context/                      # Task 2: Context extraction, OCR, and programmatic audit queries
-│   ├── solve.py                        # Automated context extractor & query solver
-│   ├── answers.json                    # Structured JSON output of audit questions
-│   └── answers.md                      # Markdown report of audit questions and findings
-├── task3_llm_security/                 # Task 3: LLM security analysis & evaluation
+├── .gitignore                          # Standard git ignore definitions
+├── Meridian_Grid_Internal_Dossier.pdf  # Comprehensive internal operations and audit dossier
+├── PIPELINE.md                         # Chronological pipeline log and execution records
 ├── README.md                           # Repository documentation and architecture overview
-└── PIPELINE.md                         # Chronological pipeline log and execution records
+├── task1_scraping/                     # Task 1: Web and anti-bot scraping pipeline
+│   ├── g2.json                         # Extracted enterprise EDR products and star ratings
+│   ├── g2.py                           # Patchright stealth scraper with DataDome detection
+│   ├── glassdoor.json                  # Extracted employee review titles and star ratings
+│   ├── glassdoor.py                    # curl_cffi Chrome TLS scraper with Google referrer
+│   ├── indeed.json                     # Extracted Mumbai Python job titles and company names
+│   ├── indeed.py                       # curl_cffi Chrome TLS scraper for Indeed jobs
+│   ├── run_all.py                      # Master pipeline runner and disk artifact validator
+│   ├── stockx.json                     # Extracted sneaker market prices and product names
+│   ├── stockx.py                       # curl_cffi Chrome TLS scraper for StockX market
+│   ├── zillow.json                     # Extracted Austin real estate listings and prices
+│   └── zillow.py                       # curl_cffi scraper parsing __NEXT_DATA__ state
+├── task2_context/                      # Task 2: Document context extraction and OCR solver
+│   ├── answers.json                    # Structured JSON answers for all 6 audit queries
+│   ├── answers.md                      # Audit report detailing findings and calculation steps
+│   ├── page13_memo.png                 # Extracted raster scan of Appendix B internal memo
+│   └── solve.py                        # Automated context extractor and Windows OCR solver
+└── task3_llm_security/                 # Task 3: Local LLM security reverse proxy
+    ├── app.py                          # FastAPI reverse proxy enforcing 4 security layers
+    ├── requirements.txt                # Task 3 Python dependencies (FastAPI, SlowAPI, etc.)
+    ├── security.py                     # Security middleware, regex scanner, and response scrubber
+    ├── test_security.py                # Comprehensive 22-test automated pytest suite
+    └── verify_live.ps1                 # Live PowerShell black-box penetration test suite
 ```
 
 ## Setup & Dependencies
